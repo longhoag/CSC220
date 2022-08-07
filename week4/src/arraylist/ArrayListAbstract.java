@@ -1,0 +1,13 @@
+package arraylist;
+
+public abstract class ArrayListAbstract {
+	
+	//-- current number of elements that can be stored in list
+	protected int capacity; 
+	
+	//-- current number of elements in the list
+	protected int size;
+	
+	protected int data[];
+
+}
